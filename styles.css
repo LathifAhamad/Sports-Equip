@@ -1,0 +1,258 @@
+#div11{
+    height:120px;
+    box-shadow: grey 0px 17px 25px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 27px;
+    right: 20px;
+    margin-right: 80px;
+    margin-top: 65px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration:underline;
+    font-size: 1.2rem;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    margin-top:60px;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+#image{
+  margin-top:100px;
+}
+#image img{
+  width:1000px;
+  margin-left: 5px;
+  height: 450px;
+  border-radius: 2pc;
+  margin-top: 50px;
+}
+#indoor {
+  height: 170px;
+  background-color: aqua;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-radius: 5pc;
+  box-shadow: grey 0px 17px 25px;
+}
+#outdoor{
+  height: 170px;
+  width: px;
+  background-color: aqua;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-radius: 5pc;
+  box-shadow: grey 0px 17px 25px;
+}
+#indoor p h1 a{
+  text-align: center;
+  margin-top: 20px;
+}
+#sport1{
+  height: 170px;
+  background-image: url(outdoor.jpg);
+  text-align: center;
+  border-radius: 5pc;
+}
+#sport1 h1 {
+  color: white;
+  padding: 8px;
+  text-shadow: rgb(10, 1, 1) 0px 17px 25px;
+  font-size: 70px;
+  
+}
+#sport1 h2 a{
+  margin-left: 1550px;
+  color: white;
+}
+#sport2{
+  height: 170px;
+  background-image: url(indoor.jpg);
+  text-align: center;
+  border-radius: 5pc;
+}
+#sport2 h1 {
+  color: white;
+  padding: 8px;
+  text-shadow: rgb(10, 1, 1) 0px 17px 25px;
+  font-size: 70px;
+  
+}
+#sport2 h2 a{
+  margin-left: 1550px;
+  color: white;
+}
+#pappa{
+  height: 70px;
+  background-color: beige;
+  text-align: center;
+  border-radius: 5pc;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 80px;
+  padding: 0px;
+  font-size: 30px;
+}
+#ammi{
+  height: 70px;
+  background-color: beige;
+  text-align: center;
+  border-radius: 5pc;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px;
+  font-size: 30px;
+}
+#didi{
+  height: 70px;
+  background-color: beige;
+  text-align: center;
+  border-radius: 5pc;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px;
+  font-size: 30px;
+}
+#jaanu{
+  height: 70px;
+  background-color: beige;
+  text-align: center;
+  border-radius: 5pc;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px;
+  font-size: 30px;
+}
+#ashfaq{
+  height: 70px;
+  background-color: beige;
+  text-align: center;
+  border-radius: 5pc;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px;
+  font-size: 30px;
+}
+#equip{
+  height: 180px;
+  background-color: greenyellow;
+  text-align: center;
+  border-radius: 5pc;
+  padding: 10px;
+  background-image: url(outdoor.jpg);
+  margin-top: 20px;
+  box-shadow: grey 0px 17px 25px;
+}
+#equip h1{
+  font-size:50px;
+  color: white;
+  text-shadow: rgb(10, 1, 1) 0px 10px 0px;
+}
+#equip  h3 a{
+  margin-left: 1550px;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 30px;
+  text-shadow: rgb(10, 1, 1) 0px 10px 0px;
+}
+#equipod{
+  height: 180px;
+  background-color: greenyellow;
+  text-align: center;
+  border-radius: 5pc;
+  padding: 10px;
+  background-image: url(outdoor.jpg);
+  margin-top: 20px;
+  box-shadow: grey 0px 17px 25px;
+}
+#equipod h1{
+  font-size: 50px;
+  color: white;
+  text-shadow: rgb(10, 1, 1) 0px 10px 0px;
+}
+#equipod h3 a{
+  margin-left: 1550px;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 30px;
+  text-shadow: rgb(10, 1, 1) 0px 10px 0px;
+}
+#indoor{
+  background-image: 
+  url(indoor.jpg);
+}
+#indoor h1{
+  color:aliceblue;
+  padding: 38px;
+  font-size:80px ;
+  text-shadow: rgb(10, 1, 1) 0px 17px 25px;
+}
+#outdoor{
+  background-image: url(outdoor.jpg);
+}
+#outdoor h1{
+  color:white;
+  padding: 38px;
+  font-size: 80px;
+  text-shadow: rgb(10, 1, 1) 0px 17px 25px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.item{
+  text-align: center;
+  margin: 30pxpx;
+  border-radius: 2pc;
+  margin-top: 20px;
+}
+.item:hover{
+  transform: scale(1.15);
+}
+.homepage{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.home{
+  text-align: center;
+  margin: 30px;
+  border-radius: 2pc;
+}
+.home:hover{
+  transform:scale(1.15);
+}
+.home h1 b{
+  color: red;
+}
+.item h1 b{
+  color: red;
+}
