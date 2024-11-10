@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Sign In</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,17 +21,18 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            width: 450px;
+            width: 400px;
             animation: fadeIn 1s ease-in-out;
             width: 1100px;
             height: 750px;
         }
+
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
 
-        h1, h2 {
+        h1 {
             color: #333;
             text-align: center;
             margin-bottom: 20px;
@@ -48,7 +49,7 @@
             color: #555;
         }
 
-        input, textarea {
+        input {
             padding: 12px;
             margin-top: 5px;
             border: 1px solid #ccc;
@@ -56,7 +57,7 @@
             transition: border-color 0.3s, box-shadow 0.3s;
         }
 
-        input:focus, textarea:focus {
+        input:focus {
             border-color: #007bff;
             box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
         }
@@ -72,33 +73,10 @@
             transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
         }
 
-        button[type="reset"] {
-            background-color: #dc3545;
-        }
-
         button:hover {
             background-color: #0056b3;
             transform: scale(1.05);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        button[type="reset"]:hover {
-            background-color: #c82333;
-            transform: scale(1.05);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        #submittedData {
-            margin-top: 20px;
-            display: none;
-            animation: fadeIn 1s ease-in-out;
-        }
-
-        #submittedData p {
-            background-color: #e9ecef;
-            padding: 10px;
-            border-radius: 5px;
-            margin-top: 10px;
         }
 
         .home-link {
@@ -114,61 +92,26 @@
         .home-link:hover {
             color: #0056b3;
         }
-
-        .footer-info {
-            margin-top: 30px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #777;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Contact Us</h1>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
+        <h1>Sign In</h1>
+        <form id="signInForm">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
             
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
+            <button type="submit">Sign In</button>
         </form>
-        
-        <div id="submittedData">
-            <h2>Submitted Data</h2>
-            <p id="outputName"></p>
-            <p id="outputEmail"></p>
-            <p id="outputMessage"></p>
-        </div>
-        <a href="index.html" class="home-link">Back to Home</a>
-        <div class="footer-info">
-            <p>For any queries, feel free to reach out to us. Our team will get back to you as soon as possible.</p>
-            <p>&copy; 2024 Sports Equip Website. All rights reserved.</p>
-        </div>
+        <a href="sign-up.html" class="home-link">Don't have an account? Sign Up</a>
     </div>
     <script>
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
+        document.getElementById('signInForm').addEventListener('submit', function(e) {
             e.preventDefault();
-
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-
-            document.getElementById('outputName').textContent = `Name: ${name}`;
-            document.getElementById('outputEmail').textContent = `Email: ${email}`;
-            document.getElementById('outputMessage').textContent = `Message: ${message}`;
-            
-            document.getElementById('submittedData').style.display = 'block';
-        });
-
-        document.getElementById('contactForm').addEventListener('reset', function() {
-            document.getElementById('submittedData').style.display = 'none';
+            window.location.href = 'home.html';
         });
     </script>
 </body>
